@@ -1,0 +1,120 @@
+html, body{
+    overflow-x: hidden;
+}
+.navbar .collapse{
+    justify-content: flex-end;
+}
+.top .container .row .col-md-12 .navbar a{
+    text-decoration: none;
+    color: white;
+}
+.top .layer{
+    background-image: url("abst.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top .container .row .col-md-8 h1{
+    color: white;
+}
+.top .container .row .col-md-4{
+    display: flex;
+    justify-content: center;
+}
+.top .container .row .col-md-8{
+    padding: 8%;
+}
+.top{
+    background-color: black;
+    /* opacity: 0.9; */
+}
+.top .layer .container .row .col-md-8 button{
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    margin-top: 20px;
+}
+/* .secpart .container .row .col-md-12 .appdown a img{
+    height: 25%;
+} */
+.secpart{
+    background-color: #FDCA4B;
+}
+.secpart .container .row .appdown a img{
+    height: 30%;
+}
+.secpart .container .row .appdown a .fimg{
+    float: right;
+}
+
+.secpart .container .row .appdown{
+    width: -webkit-fill-available;
+    justify-content: center;
+    margin-left: -30px;
+}
+.secpart .container .row .col-md-12{
+    margin-top: 60px;
+}
+.thirdpart .container .row .col-md-4 .parttomove{
+    margin-top: 50px;
+}
+.thirdpart .container .movabe{
+    margin-top: 5%;
+}
+.thirdpart .container .row .col-md-4 .parttomove i{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.thirdpart .container .row .mobpic{
+    display: flex;
+    justify-content: center;
+}
+.blackshade .fourthpart{
+    background-color: black;
+    opacity: 0.7;
+    position: relative;
+    height: 100%;
+}
+.blackshade{
+    background-image: url("banner.jpg");
+   
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 11;
+}
+.blackshade .fourthpart .container .write{
+    padding: 100px 0px;
+}
+.blackshade .fourthpart .container .write button{
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: white;
+    border: 2px solid white;
+}
+.footer .container .row h1 span img{
+    height: 60px;
+}
+.footer{
+    background-color: #FDCA4B;
+}
+.footer .container .row {
+    display: flex;
+    justify-content: center;
+}
+.footer .container .row .col-md-12{
+    justify-content: center;
+    text-align: center;
+}
+.footer .container .row .col-md-12 i{
+    font-size: 35px;
+    padding: 0px 20px;
+}
+.footer{
+    padding: 50px;
+}
